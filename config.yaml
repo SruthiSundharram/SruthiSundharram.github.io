@@ -282,7 +282,7 @@ params:
             url: https://github.com/SruthiSundharram/Image_Captioning_to_aid_the_Visually_impaired_using_Pretrained_Transformer_Model
 
       - title: Detection of Human Values from Text
-        content: Implemented ensemble model to classify human values from a given text.
+        content: Implemented ensemble model to classify human values from a given premise - conclusion text pair.
         image: /images/projects/proj3.png
 
         links:
