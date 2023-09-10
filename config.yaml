@@ -97,7 +97,7 @@ params:
     intro: "Hi there! I'm "
     title: "Sruthi Sundharram"
     #subtitle: 
-    content: "A Computer Science Grauate Student at Purdue University, passionate about AI's role in Bioinformatics, Neuroscience, Psychology, and Medicine."
+    content: "A Computer Science Graduate Student at Purdue University, passionate about AI's role in Bioinformatics, Neuroscience, Psychology, and Medicine."
     image: "images/me_.jpg"
     button:
       background - color: 
