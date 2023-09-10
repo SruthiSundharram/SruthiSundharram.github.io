@@ -134,7 +134,7 @@ params:
   experience:
     enable: true
     items:  
-      - job: "Teaching Assitant"
+      - job: "Teaching Assistant"
         company: "Purdue University"
         
         date: "May 2023 - Jul 2023"
@@ -235,7 +235,7 @@ params:
         content: |- 
             - Dean's Top 10% Merit List Scholoarship student for two consecutive academic years from 2018 - 2020.
             - Secured 2nd rank among 60 peers in University End Semester Exam in the subject "Soft Computing". 
-            - Course Works: C, C++, JAVA, Soft Computing, Image Processing, Probability & Statistics, Digital SIgnal Processing,Computer Networks, Computer Organization and Compiler Architecture. 
+            - Course Works: C, C++, JAVA, Soft Computing, Image Processing, Probability & Statistics, Digital SIgnal Processing, Computer Networks, Computer Organization and Compiler Architecture. 
 
           
       
