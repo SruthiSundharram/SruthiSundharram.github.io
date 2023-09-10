@@ -1,0 +1,364 @@
+baseURL: "https://SruthiSundharram.github.io/"
+languageCode: "en-us"
+title: "SruthiSundharram"
+theme: master
+
+Paginate: 3
+disqusShortname: gurusabarish
+googleAnalytics: G-DWJJVE27WD
+canonifyURLs:  true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+#Menus:
+  #main:
+    #- identifier: blog
+      #name: Blog
+      #title: Blog posts
+      #url: /blogs
+      #weight: 1
+
+    #Dropdown menu
+    #- identifier: dropdown
+      #title: Example dropdown menu
+      #name: Dropdown
+      #weight: 2
+    #- identifier: dropdown1
+      #title: example dropdown 1
+      #name: example 1
+      #url: /#
+      #parent: dropdown
+      #weight: 1
+    #- identifier: dropdown2
+      #title: example dropdown 2
+      #name: example 2
+      #url: /#
+      #parent: dropdown
+      #weight: 2
+
+params:
+  #title: "Hugo Profile"
+  #description: Text about my cool site
+  # staticPath: ""  # The path to serve the static files from
+  #favicon: "/fav.png"
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
+    color:  
+        secondaryBackgroundColor: "Blue"
+    #darkmode:
+        #secondaryBackgroundColor: "Blue"
+
+  # font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+  # color preference
+  # color:
+  #     textColor: "black"
+  #     secondaryTextColor: 
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+      position: absolute
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi there! I'm "
+    title: "Sruthi Sundharram"
+    #subtitle: 
+    content: "A Computer Science Grauate Student at Purdue University, passionate about AI's role in Bioinformatics, Neuroscience, Psychology, and Medicine."
+    image: "images/me_.jpg"
+    button:
+      background - color: 
+      enable: true
+      name: "Resume"
+      url: "https://docs.google.com/document/d/1JcynTG29PuxqIZibdeY2fDEeeojW1E5xOuFIAJ4gNUc/edit?usp=sharing"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/SruthiSundharram
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/sruthi-sundharram/
+        # - icon: fab fa-instagram
+        #   url: https://www.instagram.com/accounts/login/?next=/keerthi__sreenivas/
+      #customIcons:
+        #- icon: /fav.png
+        #  url: "https://example.com"
+
+  # About
+  about:
+    enable: true
+    title: "I'm Open to work from May 2024"
+    image: "images/metwo.jpg"
+    content: |-
+     A Masters in Computer Science student with 4+ years of academic experience in Python, R, Machine Learning, NLP and Big Data. 
+     I have a strong interest in the the intersection of Technology and Business. 
+
+    skills:
+      enable: true
+      title: "Skills:"
+      items:
+        - "Python, R, SQL, C++, MLops, AWS"
+        - "Scikit-Learn, TensorFlow, Keras, NLTK, PyTorch"
+        - "Numpy, Pandas, Matplotlib, OpenCV, Docker"
+       
+
+  # Experience
+  experience:
+    enable: true
+    items:  
+      - job: "Teaching Assitant"
+        company: "Purdue University"
+        # companyUrl: "https://www.pfw.edu/etcs/computer-science"
+        date: "May 2023 - Jul 2023"
+        info:
+          enable: true
+          content: "Location: Indiana, USA"
+        # featuredLink:
+        #   enable: false
+        #   # url: "https://www.pfw.edu/etcs/computer-science"
+        info:
+          content:
+        content: |-
+          Indiana, USA
+          - Worked as a teaching assistant for the course CS 160 Introduction to Computer Science[Java].
+          - Responsible for leading lab sessions, grading, proctoring exams, and guiding 20+ students on their projects.
+    
+      - job: "Machine Learning Engineer"
+        company: "Global Systems Services"
+        # companyUrl: "https://example.com"
+        date: "Jan 2022 - Jul 2022"
+        info:
+          enable: true
+          content: "Location: Pune, India "
+        # featuredLink:
+          # enable: true
+        #   # url: "https://example.com"
+        content: |
+          Pune, India
+          - With the aid of AWS Sagemaker, Developed a multi-label classification model using Convolutional Neural Network in Python to classify NSFW images with 91% accuracy.
+          - With the aid of AWS Rekognition, Developed a custom label model using Convolutional Neural Network to classify images and label them categorically with 94% accuracy.
+
+
+      
+
+      - job: "Machine Learning Engineer"
+        company: "Intechsys"
+        # companyUrl: "https://www.kitolit.com"
+        date: "Jan 2021 - Dec 2021"
+        info:
+          enable: true
+          content: "Location: Bangalore, India"
+        # featuredLink:
+        #   enable: false
+        #   # url: "https://www.kitolit.com"
+        content: |-
+            Bangalore, India
+            - Using Image Processing techniques, extracted the images of  Color and Test lines from pregnancy strip image using OpenCV library
+            - Built a K nearest neighbour model to predict the Human chorionic gonadotropin[HCG] band level from a test image with 86% accuracy.
+
+
+          
+      - job: "Product Specialist"
+        company: " Freshworks "
+        # companyUrl: "https://www.f6s.com/indibots"
+        date: "Jul 2020 - Dec 2020"
+        # info:
+        #   enable: true
+        #   content: "Location: Chennai, India "
+        # featuredLink:
+        #   enable: false
+        #   # url: "https://www.kitolit.com"
+        content: |-
+          Chennai, India
+          - Conducted market research and analyzed customer feedback to identify product gaps and opportunities for innovation.
+          - Worked closely with product managers and developers to define and prioritize features for Freshworks’s customer engagement management product called Freshwork360.
+
+      - job: "Machine Learning Engineer intern"
+        company: " Intechsys "
+        # companyUrl: "https://www.f6s.com/indibots"
+        date: "Dec 2019 - May 2020"
+        # info:
+        #   enable: true
+        #   content: "Location: Chennai, India "
+        # featuredLink:
+        #   enable: false
+        #   # url: "https://www.kitolit.com"
+        content: |-
+          Bangalore, India
+            - Built a computer vision based model using the OpenCV library to extract and scan bar codes from cargo boxes, transform the image data and load it into the pipeline and update inventory.
+            - Deployed this computer vision based model with 95% accuracy on the client end using Azure Edge IOT.
+
+
+
+
+  # Education
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Masters in Computer Sciene "
+        school:
+          name: "Purdue University"
+          url: "https://www.pfw.edu/"
+        date: "2022 - 2024"
+        GPA: "4.0 out of 4.0"
+        content: |-
+            - Presented a paper in The 17th International Workshop on Semantic Evaluation at ACL Conference 2023.
+            - Attending Grace Hopper 2023 Conference with University Scholarship.
+            - Attending SWE 2023 Conference with University Scholarship.
+            - Presented my project at the University's Research Symposium.
+            - Elected as President of Society of Women Engineers [SWE] for the academic year 2023 - 2024.
+            - Was a Teaching Assistant for Introduction to Computer Science at the Purdue University.
+            - Course Work: Machine Learning, Application of Deep Learning, Natural Language Processing, Human - Computer Interaction, Introduction to BioInformatics, Expert Systems, Software Engineering, Algorithm Analysis and Design Implementation.
+
+            
+             
+
+      - title: "Bachelor of Technology in Electronics and Computer Science Engineering"
+        school:
+          name: "SASTRA University"
+          url: "https://www.sastra.edu/"
+        date: "2016 - 2020"
+        GPA: "8.0 out of 10"
+        content: |- 
+            - Dean's Top 10% Merit List Scholoarship student for two consecutive academic years from 2018 - 2020.
+            - Secured 2nd rank among 60 peers in University End Semester Exam in the subject "Soft Computing". 
+            - Course Works: C, C++, JAVA, Soft Computing, Image Processing, Probability & Statistics, Digital SIgnal Processing,Computer Networks, Computer Organization and Compiler Architecture. 
+
+          
+      
+
+            
+
+  #featuredLink:
+  #enable: true
+  #name: "My academic record"
+  #url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    items:
+      #- title: Smart India Hackathon 2020
+       # content: Won 2nd place in Smart India Hackathon 2020 for developing a Smart Yoga Instructor with feedback using Deep Learning
+        #url: "https://www.sih.gov.in"
+      - title: Presented my paper in The 17th International Workshop on Semantic Evaluation at ACL Conference 2023.
+        content: Author of "Detection of Human Values from Texts using Machine Learning"
+        url: "https://aclanthology.org/2023.semeval-1.302/"
+      - title: Dean's Top 10% Merit List 2020
+        content: One among the Top 10% student to secure Unversity Merit Scholarship for academic excellence in the year 2019 - 2020.
+        url: "https://www.sastra.edu/downloads/news/2021/jan/Deans_List_3-10_2019-20.pdf"
+      - title: Dean's Top 10% Merit List 2019
+        content: One among the Top 10%  student to secure Unversity Merit Scholarship for academic excellence in the year 2018 - 2019.
+        url: "https://www.sastra.edu/downloads/News/2019/Sep/merit_list/merit.pdf"
+
+  # projects
+  projects:
+    enable: true
+    items:
+      - title: Comparative Analysis of Babesia and Berrolia bacterium in the Investigation of Lyme Disease
+        content:  Implemented various analyses for understanding similarities between Babesia and Borrelia burgdorferi
+        image: /images/projects/proj1.jpeg
+        # featured:
+        #   name: Click here to know more!
+        #   link: https://github.com/SruthiSundharram/ComparativeAnalysis
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          #- icon: fa fa-envelope
+          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-github
+            url: https://github.com/SruthiSundharram/ComparativeAnalysis
+          # - icon: fab fa-twitter
+          #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: Image Captioning to aid the Visually Impaired using Pretrained Transformer Model
+        content: Using pretrained Transformer captions of an image was generated and converted to speech using Google text-to-speech API.
+        image: /images/projects/proj2.jpg
+        # featured:
+        #   name: Click here to know more!
+        #   link: https://github.com/SruthiSundharram/Image_Captioning_to_aid_the_Visually_impaired_using_Pretrained_Transformer_Model
+        # badges:
+        #   - "Django"
+        #   - "Bootstrap"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/SruthiSundharram/Image_Captioning_to_aid_the_Visually_impaired_using_Pretrained_Transformer_Model
+
+      - title: Detection of Human Values from Text
+        content: Implemented ensemble model to classify human values from a given text.
+        image: /images/projects/proj3.png
+        # featured:
+        #   name: Click here to know more!
+        #   link: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/SruthiSundharram/ValueEval_SemEval2023Task
+
+      - title: Identifying duplicate questions using machine learning
+        content: Implemented an ensemble based machine learning model to identify duplicate questions by predicting if given two questions have the same semantic meaning.
+        image: /images/projects/proj4.png
+        # featured:
+        #   name: Click here to know more!
+        #   link: https://github.com/Keerthi-Sreenivas/statistics/blob/main/Project.pdf
+        # badges:
+        #   - "Hugo"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/SruthiSundharram/Identifying_duplicate_QuestionPair_using_ML/tree/main
+
+  #Contact
+  contact:
+    enable: true
+    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    email: ssundharram@gmail.com
+    btnName: Mail me
+
+  footer:
+    recentPosts: false
+    socialNetworks:
+      github: https://github.com/SruthiSundharram
+      linkedin: https://www.linkedin.com/in/sruthi-sundharram/
+    # twitter: https://twitter.com
+      # instagram: https://www.instagram.com/keerthi__sreenivas/
+    # facebook: https://facebook.com
