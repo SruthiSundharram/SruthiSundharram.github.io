@@ -110,7 +110,8 @@ params:
           url: https://github.com/SruthiSundharram
         - icon: fab fa-linkedin
           url: https://www.linkedin.com/in/sruthi-sundharram/
-     
+        - icon: fab fa-google
+          url: https://scholar.google.com/citations?user=ecY1PsYAAAAJ&hl=en
 
   # About
   about:
@@ -118,7 +119,7 @@ params:
     title: "I'm Open to work from May 2024"
     image: "images/metwo.jpg"
     content: |-
-     A Masters in Computer Science student with 4+ years of academic experience in Python, R, Machine Learning, NLP and Big Data. 
+     A Masters in Computer Science(Thesis Track) student with 4+ years of academic experience in Python, R, Machine Learning, NLP and Big Data. 
      I have a strong interest in the the intersection of Technology and Business. 
 
     skills:
@@ -208,7 +209,7 @@ params:
     enable: true
     
     items:
-      - title: "Masters in Computer Sciene "
+      - title: "Masters in Computer Science"
         school:
           name: "Purdue University"
           url: "https://www.pfw.edu/"
